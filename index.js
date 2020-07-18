@@ -1,5 +1,6 @@
 /*
   BeChattolo v2 Ver.0.0.2
+  Node.js (サーバー側)
 */
 
 var server = require('ws').Server;
