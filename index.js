@@ -4,8 +4,8 @@
 */
 
 var server = require('ws').Server;
-// var s = new server({port:5001});
-var s = new server({port:3000});
+var s = new server({port:5001});
+// var s = new server({port:3000});
 
 s.on('connection',function(ws){
 
